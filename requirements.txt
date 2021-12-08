@@ -8,5 +8,6 @@ matplotlib==3.2.1
 numpy==1.18.5
 scipy==1.4.1             
 obspy==1.2.2
+geos==3.7.2
 cartopy==0.20.1
 math
