@@ -1,5 +1,0 @@
-
-Geotherms
-=========
-
-.. automodule:: burnman.geotherm
