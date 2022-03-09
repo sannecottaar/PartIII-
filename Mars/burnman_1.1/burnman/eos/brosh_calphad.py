@@ -35,7 +35,7 @@ class BroshCalphad(eos.EquationOfState):
                                     for i in range(2, 6)])
 
         nu = self._theta(pressure, params)/temperature
-        dP = 1000.
+        dP = 1.e8 # modified SC
         dthetadP = (self._theta(pressure+dP/2., params)
                     - self._theta(pressure-dP/2., params))/dP
         V_qh = (3. * params['n'] * gas_constant
